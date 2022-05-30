@@ -1,0 +1,52 @@
+/* НУ ТУТ ВАЩЕ ДЕЛАЕМ ФОН ДЛЯ ВСЕГО ТЕЛА */
+.body1 {
+    background: #fffbcb;
+}
+
+/* Тут первый заголовок вложен и параграф, пытаемся перенести рядмо к картинке */
+.first {
+    color: rgb(0, 0, 0);
+    padding: 5;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 30px;
+    border-color: #348dd1;
+
+}
+
+
+
+/* <p> ВСЁ, что НИЖЕ - Форматирование таблицы в КСС<p> */
+table {
+    /* МЕЖДУ СТРОКАМИ ТАБЛИЦЫ */
+    border-spacing: 0 10px;
+    /* ЭТО ШО Б ЖИРНЕНЬКИМ СДЕЛАТЬ  */
+    /* font-weight: bold; */
+}
+th {
+    /* PADDING СВОЙСТВО БОКСА. ШО Б РАМКИ МЕНЬШЕ СДЕЛАТЬ ИЛИ БОЛЬШЕ */
+    padding: 10px 40px;
+    background: #4083af;
+    color: #e6ac0c;
+    border-right: 1px dotted; 
+    border-left: 1px;
+    
+    font-size: 0.9em;
+    }
+    /* ПЕРВЫЙ th РЕДАЧИТ. ТИПО ПЕРВЫЙ РЕБЕНОК , ВСЕ ДЕЛА */
+th:first-child {
+        text-align: left;
+    }
+/* th:last-child {
+    border-right: none;
+} */
+td {
+    /* vertical-align: middle; */
+    padding: 10px;
+    font-size: 15px;
+    text-align: left;
+    border-top: 1px solid #348dd1;
+    border-bottom: 1px solid #348dd1;
+    border-right: 1px solid #348dd1;
+    border-left: 1px solid #348dd1;
+}
